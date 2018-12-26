@@ -3,8 +3,48 @@
     <head>
         <meta charset="utf-8">
         <title>title</title>
+        <style>
+            .contain {
+                text-align: center;
+            }
+            .contain>button {
+                font-size: 16px;
+                height: 35px;
+                border-radius: 4px;
+                cursor: pointer;  
+                transition: all 1s; 
+            }
+            .contain>button:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            #btn-steal {
+                background-color: #009588;
+                color: #fff;
+            }
+            #btn-yellow {
+                background-color: #ffeb3b;
+            }
+            #btn-orange {
+                background-color: #ff9701;
+            }
+            #btn-red {
+                background-color: #f44336;
+                color: #fff;
+            }
+            #btn-green {
+                background-color: #4cae50;
+                color: #fff;
+            }
+        </style>
     </head>
     <body>
+        <div class='contain'>
+                <button id='btn-steal'>steal</button>
+                <button id='btn-yellow'>yellow</button>
+                <button id='btn-orange'>orange</button>
+                <button id='btn-red'>red</button>
+                <button id='btn-green'>green</button>
+        </div>
         
     </body>
 </html>
